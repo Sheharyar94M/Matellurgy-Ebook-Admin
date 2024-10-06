@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditBook">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/titlePostEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Edit Book"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/titleLayoutEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titlePostEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/titleEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstNameEdit"
+                android:hint="Title Your Book"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerCategoryEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleLayoutEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></androidx.appcompat.widget.AppCompatSpinner>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/descriptionLayoutEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerCategoryEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            app:errorEnabled="true">
+
+
+            <EditText
+                android:id="@+id/authorNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/browseEdit"
+                android:layout_marginTop="20sp"
+                android:hint="Book Author"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/descriptionLayout2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionLayoutEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            app:errorEnabled="true">
+
+
+            <EditText
+                android:id="@+id/descriptionEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/browseEdit"
+                android:layout_marginTop="20sp"
+                android:hint="Book Description"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/weblinkLayoutEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionLayout2Edit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/pdfUrlEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:hint="EBook Url (pdf url)"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pdfVideolinkLayoutEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weblinkLayoutEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/pdfVideoUrlEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:hint="Youtube Link"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/adImageTitleEdit"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pdfVideolinkLayoutEdit"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:text="Select ad image"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/adImageEdit"
+            android:layout_width="190dp"
+            android:layout_height="135dp"
+            android:layout_below="@+id/adImageTitleEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Browse"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/continueBtnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/adImageEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button1"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

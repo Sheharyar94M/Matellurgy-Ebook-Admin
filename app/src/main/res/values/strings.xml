@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Metallurgy_MME Admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="die_casting_admin">Die Casting Admin</string>
+    <string name="add_new_category">Add New Category</string>
+</resources>

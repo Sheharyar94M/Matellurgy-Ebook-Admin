@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddCategory">
+
+    <TextView
+        android:id="@+id/titleCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_new_category"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleCategory"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="21"
+        app:errorEnabled="true"
+        android:layout_marginStart="25dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/titleCat"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstName"
+            android:hint="Title Your Post"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/adImageTitle"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLayout"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Select ad image"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/catImage"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/adImageTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/imageicon"
+        android:text="Browse"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="350sp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button1"
+        android:text="Continue"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

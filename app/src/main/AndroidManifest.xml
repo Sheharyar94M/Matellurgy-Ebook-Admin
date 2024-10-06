@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qsa.metallurgy_material_engineering_admin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.qsa.metallurgy_material_engineering_admin.services.FirebaseHandlerPresistence"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.Splash">
+
+        </activity>
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.activities.EditBook" />
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.activities.EditCategory" /> <!-- android:theme="@style/Theme.AdminQSAEBooks" -->
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.activities.AddCategory" />
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.activities.AddBook" />
+        <activity android:name="com.qsa.metallurgy_material_engineering_admin.AddBookNCategoryBySirRawal" />
+    </application>
+
+</manifest>

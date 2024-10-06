@@ -1,0 +1,180 @@
+{
+  "project_info": {
+    "project_number": "932491171279",
+    "firebase_url": "https://my-metallurgy-and-materials-default-rtdb.firebaseio.com",
+    "project_id": "my-metallurgy-and-materials",
+    "storage_bucket": "my-metallurgy-and-materials.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932491171279:android:315a2ed8969e495d7daeba",
+        "android_client_info": {
+          "package_name": "com.qsa.die_casting_free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoUpE7ybslJB9ALyEosOx9VqEV9fA2RVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932491171279:android:d63267f9c2bcd20f7daeba",
+        "android_client_info": {
+          "package_name": "com.qsa.die_casting_premium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoUpE7ybslJB9ALyEosOx9VqEV9fA2RVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932491171279:android:7eca704ea557ffea7daeba",
+        "android_client_info": {
+          "package_name": "com.qsa.metallurgy_material_engineering_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932491171279-0fj276efhutbva8apne3bsu1ntikoem9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qsa.metallurgy_material_engineering_admin",
+            "certificate_hash": "346752532faa1e5f1099515d0f979066b617ceb8"
+          }
+        },
+        {
+          "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoUpE7ybslJB9ALyEosOx9VqEV9fA2RVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932491171279:android:9484958344bef3987daeba",
+        "android_client_info": {
+          "package_name": "com.qsa.metallurgy_material_engineering_free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932491171279-l3dibt9p8u9uksiia31lj10am8tisa14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qsa.metallurgy_material_engineering_free",
+            "certificate_hash": "346752532faa1e5f1099515d0f979066b617ceb8"
+          }
+        },
+        {
+          "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoUpE7ybslJB9ALyEosOx9VqEV9fA2RVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932491171279:android:930c7f9c2772089d7daeba",
+        "android_client_info": {
+          "package_name": "com.qsa.metallurgy_material_engineering_premium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932491171279-loio5s262umjntp89hjudq662ms50h1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qsa.metallurgy_material_engineering_premium",
+            "certificate_hash": "346752532faa1e5f1099515d0f979066b617ceb8"
+          }
+        },
+        {
+          "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoUpE7ybslJB9ALyEosOx9VqEV9fA2RVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932491171279-gca0uim1dc0mh6s32dd6mtk6dbc9f3rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
